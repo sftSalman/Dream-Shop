@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,16 @@
 		2856795A24C357F70058D61C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2856795824C357F70058D61C /* Main.storyboard */; };
 		2856795C24C357F90058D61C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2856795B24C357F90058D61C /* Assets.xcassets */; };
 		2856795F24C357F90058D61C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2856795D24C357F90058D61C /* LaunchScreen.storyboard */; };
+		28A4DFC424C4932900F78CAC /* CatagoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A4DFC324C4932900F78CAC /* CatagoryCollectionViewController.swift */; };
+		28A4DFC624C494B200F78CAC /* catagoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A4DFC524C494B200F78CAC /* catagoryCollectionViewCell.swift */; };
+		28A4DFC824C56D3600F78CAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28A4DFC724C56D3600F78CAC /* GoogleService-Info.plist */; };
+		28A4DFCA24C5A50600F78CAC /* firebaseCollecetionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A4DFC924C5A50600F78CAC /* firebaseCollecetionReference.swift */; };
+		28A4DFCF24C5AC6B00F78CAC /* Catagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A4DFCE24C5AC6B00F78CAC /* Catagory.swift */; };
+		398431C2A1821BA1DE543E85 /* Pods_Dream_Shop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D5588664DD0F2C56315C33 /* Pods_Dream_Shop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07D5588664DD0F2C56315C33 /* Pods_Dream_Shop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dream_Shop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2856794F24C357F70058D61C /* Dream Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2856795224C357F70058D61C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2856795424C357F70058D61C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		2856795B24C357F90058D61C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2856795E24C357F90058D61C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2856796024C357F90058D61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A4DFC324C4932900F78CAC /* CatagoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryCollectionViewController.swift; sourceTree = "<group>"; };
+		28A4DFC524C494B200F78CAC /* catagoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catagoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		28A4DFC724C56D3600F78CAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28A4DFC924C5A50600F78CAC /* firebaseCollecetionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseCollecetionReference.swift; sourceTree = "<group>"; };
+		28A4DFCE24C5AC6B00F78CAC /* Catagory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catagory.swift; sourceTree = "<group>"; };
+		5949222337FB5B25ACA77C73 /* Pods-Dream Shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream Shop.debug.xcconfig"; path = "Target Support Files/Pods-Dream Shop/Pods-Dream Shop.debug.xcconfig"; sourceTree = "<group>"; };
+		C552C18DA0EE45E0892CD1F4 /* Pods-Dream Shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dream Shop.release.xcconfig"; path = "Target Support Files/Pods-Dream Shop/Pods-Dream Shop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398431C2A1821BA1DE543E85 /* Pods_Dream_Shop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				2856795124C357F70058D61C /* Dream Shop */,
 				2856795024C357F70058D61C /* Products */,
+				C376A5AB6B25A724B4466ADF /* Pods */,
+				29C08C153D295C54C35E6C86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +74,68 @@
 			isa = PBXGroup;
 			children = (
 				2856795224C357F70058D61C /* AppDelegate.swift */,
+				28A4DFCB24C5AB7C00F78CAC /* Helpers  */,
 				2856795424C357F70058D61C /* SceneDelegate.swift */,
+				28A4DFD024C5ACA800F78CAC /* Model */,
+				28A4DFCC24C5ABE100F78CAC /* MainView */,
+				28A4DFCD24C5ABFC00F78CAC /* CustomCell */,
 				2856795624C357F70058D61C /* ViewController.swift */,
 				2856795824C357F70058D61C /* Main.storyboard */,
 				2856795B24C357F90058D61C /* Assets.xcassets */,
 				2856795D24C357F90058D61C /* LaunchScreen.storyboard */,
 				2856796024C357F90058D61C /* Info.plist */,
+				28A4DFC724C56D3600F78CAC /* GoogleService-Info.plist */,
 			);
 			path = "Dream Shop";
+			sourceTree = "<group>";
+		};
+		28A4DFCB24C5AB7C00F78CAC /* Helpers  */ = {
+			isa = PBXGroup;
+			children = (
+				28A4DFC924C5A50600F78CAC /* firebaseCollecetionReference.swift */,
+			);
+			path = "Helpers ";
+			sourceTree = "<group>";
+		};
+		28A4DFCC24C5ABE100F78CAC /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				28A4DFC324C4932900F78CAC /* CatagoryCollectionViewController.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		28A4DFCD24C5ABFC00F78CAC /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				28A4DFC524C494B200F78CAC /* catagoryCollectionViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		28A4DFD024C5ACA800F78CAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28A4DFCE24C5AC6B00F78CAC /* Catagory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29C08C153D295C54C35E6C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D5588664DD0F2C56315C33 /* Pods_Dream_Shop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C376A5AB6B25A724B4466ADF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5949222337FB5B25ACA77C73 /* Pods-Dream Shop.debug.xcconfig */,
+				C552C18DA0EE45E0892CD1F4 /* Pods-Dream Shop.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2856796324C357F90058D61C /* Build configuration list for PBXNativeTarget "Dream Shop" */;
 			buildPhases = (
+				E3F99A78F12DDB862BFA695B /* [CP] Check Pods Manifest.lock */,
 				2856794B24C357F70058D61C /* Sources */,
 				2856794C24C357F70058D61C /* Frameworks */,
 				2856794D24C357F70058D61C /* Resources */,
+				094568D7CEFABC56964486FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +199,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				2856795F24C357F90058D61C /* LaunchScreen.storyboard in Resources */,
+				28A4DFC824C56D3600F78CAC /* GoogleService-Info.plist in Resources */,
 				2856795C24C357F90058D61C /* Assets.xcassets in Resources */,
 				2856795A24C357F70058D61C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		094568D7CEFABC56964486FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dream Shop/Pods-Dream Shop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dream Shop/Pods-Dream Shop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dream Shop/Pods-Dream Shop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F99A78F12DDB862BFA695B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dream Shop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2856794B24C357F70058D61C /* Sources */ = {
@@ -140,6 +256,10 @@
 			files = (
 				2856795724C357F70058D61C /* ViewController.swift in Sources */,
 				2856795324C357F70058D61C /* AppDelegate.swift in Sources */,
+				28A4DFCF24C5AC6B00F78CAC /* Catagory.swift in Sources */,
+				28A4DFC424C4932900F78CAC /* CatagoryCollectionViewController.swift in Sources */,
+				28A4DFC624C494B200F78CAC /* catagoryCollectionViewCell.swift in Sources */,
+				28A4DFCA24C5A50600F78CAC /* firebaseCollecetionReference.swift in Sources */,
 				2856795524C357F70058D61C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +402,7 @@
 		};
 		2856796424C357F90058D61C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5949222337FB5B25ACA77C73 /* Pods-Dream Shop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +421,7 @@
 		};
 		2856796524C357F90058D61C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C552C18DA0EE45E0892CD1F4 /* Pods-Dream Shop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
